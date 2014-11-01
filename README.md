@@ -11,8 +11,8 @@ The following should should put up a functional Joomla install ready to be confi
 
     #!/bin/bash
     HOST_PORT=80
-    CT_DB='polegasm-joomla-mysql'
-    CT_WWW='polegasm-joomla'
+    CT_DB='joomla-mysql'
+    CT_WWW='joomla'
     DB_ROOT_PASS='moo'
     DB_USER='joomla'
     DB_PASS='mootoo'
