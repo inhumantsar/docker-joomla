@@ -37,3 +37,4 @@ The following should should put up a functional Joomla install ready to be confi
                   --link $CT_DB:mysql \
                   -p $HOST_PORT:80 \
                   inhumantsar/docker-joomla
+		fi
