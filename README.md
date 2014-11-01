@@ -7,7 +7,7 @@ Builds out a Joomla container running the latest from their master branch inside
 
 The following should should put up a functional Joomla install ready to be configured.
 
-*Note:* If you want your Joomla install to survive a docker rm, add `-v /path/on/host/configuration.php:/var/www/html/configuration.php \` on a new line below `-p $HOST_PORT:80 \` to the Joomla docker run command and `-v /path/on/host/mysql:/var/lib/mysql \` on a new line below `-e MYSQL_DATABASE="$DB" \` in the MySQL docker run command.
+*Note:* If you want your Joomla install to survive a docker rm, add `-v /path/on/host/configuration.php:/app/configuration.php \` on a new line below `-p $HOST_PORT:80 \` to the Joomla docker run command and `-v /path/on/host/mysql:/var/lib/mysql \` on a new line below `-e MYSQL_DATABASE="$DB" \` in the MySQL docker run command.
 
     #!/bin/bash
     HOST_PORT=80
